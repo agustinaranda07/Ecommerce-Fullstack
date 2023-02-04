@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+:root{
+    --main--font: 'PT Serif', serif;;
+    --sec--font: 'Quicksand', sans-serif;
+    --color--main: #555A54;
+    --color--sec: #F7F2EF;
+}
+
+#title{
+    font-family: var(--main--font);
+}
+.nav{
+    background-color: var(--color--main);
+    font-family: var(--sec--font);
+    height: 10vh;
+}
+
+ul li{
+    padding: 10px 10px;
+    color: var(--color--sec);
+    font-family: var(--sec--font);
+}
+
+ul li:hover{
+    background-color: var(--color--sec);
+    color: var(--color--main);
+    border-radius: 5px;
+}
+
+
+

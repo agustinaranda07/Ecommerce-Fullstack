@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+:root{
+    --main--font: 'PT Serif', serif;;
+    --sec--font: 'Quicksand', sans-serif;
+    --color--main: #555A54;
+    --color--sec: #F7F2EF;
+}
+.container-collection{
+    background-color: #555A54;
+}
+
+.collection-title{
+    font-family: var(--sec--font);
+    color: var(--color--sec);
+}
