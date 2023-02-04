@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
 
 :root{
     --main--font: 'PT Serif', serif;;
@@ -14,4 +16,43 @@
 .collection-title{
     font-family: var(--sec--font);
     color: var(--color--sec);
+}
+
+.container-section{
+    background-color: var(--color--sec);
+    height: 90vh;
+}
+
+.promos{
+    background-image: url(../../../../../public/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.arrivals{
+    background-image: url(../../../../../public/img/arrivals.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.summer{
+    background-image: url(../../../../../public/img/summer.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.winter{
+    background-image: url(../../../../../public/img/winter.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.promos:hover,.arrivals:hover,.summer:hover,.winter:hover{
+    opacity: 1;
+    transition: all 1.2s;
+    cursor: pointer;
 }

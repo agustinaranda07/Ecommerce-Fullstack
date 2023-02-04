@@ -8,7 +8,7 @@ function App() {
     <>
       <Nav/>
       <Home/>
-      <Productos/>
+      <Productos/> 
     </>
   )
 }

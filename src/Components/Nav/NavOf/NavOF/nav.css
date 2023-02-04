@@ -15,12 +15,20 @@
     background-color: var(--color--main);
     font-family: var(--sec--font);
     height: 10vh;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul,.container-ul{
+    background-color: var(--color--main);
 }
 
 ul li{
     padding: 10px 10px;
     color: var(--color--sec);
     font-family: var(--sec--font);
+    background-color: var(--color--main);
 }
 
 ul li:hover{
