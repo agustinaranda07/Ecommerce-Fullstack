@@ -6,7 +6,7 @@ const morgan = require("morgan");
 //config
 app.set("port", 3001);
 //middlewares
-app.use(morgan("server"));
+app.use(morgan("OK"));
 //router
 app.use(require('./router/router'))
 //server up
