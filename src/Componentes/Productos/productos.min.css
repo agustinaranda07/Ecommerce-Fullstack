@@ -24,28 +24,28 @@
 }
 
 .promos{
-    background-image: url(../../../../../public/img/background.jpg);
+    background-image: url(./img/background.jpg);
     background-position: center;
     background-size: cover;
     opacity: 0.6;
 }
 
 .arrivals{
-    background-image: url(../../../../../public/img/arrivals.jpg);
+    background-image: url(./img/arrivals.jpg);
     background-position: center;
     background-size: cover;
     opacity: 0.6;
 }
 
 .summer{
-    background-image: url(../../../../../public/img/summer.jpg);
+    background-image: url(./img/summer.jpg);
     background-position: center;
     background-size: cover;
     opacity: 0.6;
 }
 
 .winter{
-    background-image: url(../../../../../public/img/winter.jpg);
+    background-image: url(./img/winter.jpg);
     background-position: center;
     background-size: cover;
     opacity: 0.6;

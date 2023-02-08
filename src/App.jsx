@@ -1,7 +1,8 @@
 import './App.css'
-import Home from './Components/Nav/NavOf/Home/Home'
-import Nav from './Components/Nav/NavOf/NavOF/Nav'
-import Productos from './Components/Nav/NavOf/Productos/Productos'
+import Contact from './Componentes/Contact/Contact'
+import Home from './Componentes/Home/Home'
+import Nav from './Componentes/NavOF/Nav'
+import Productos from './Componentes/Productos/Productos'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav/>
       <Home/>
       <Productos/> 
+      <Contact/>
     </>
   )
 }
