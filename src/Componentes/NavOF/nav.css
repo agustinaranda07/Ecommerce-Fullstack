@@ -31,10 +31,29 @@ ul li{
     background-color: var(--color--main);
 }
 
-ul li:hover{
+
+.nav-link{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: var(--color--sec);
+    padding: 8px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
     background-color: var(--color--sec);
-    color: var(--color--main);
-    border-radius: 5px;
+    transition: width .5s;
+}
+
+.nav-link:hover:before{
+    width: 100%;
 }
 
 

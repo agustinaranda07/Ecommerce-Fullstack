@@ -84,7 +84,7 @@ export default function Home() {
   
                 <a
                   href="#"
-                  className="inline-block rounded-md border border-transparent bg-gray-600 py-3 px-8 text-center font-medium text-white hover:bg-gray-800"
+                  className="inline-block rounded-md border border-transparent bg-gray-600 py-3 px-8 text-center font-medium text-white hover:bg-gray-800 duration-200"
                 >
                   Ver Colección
                 </a>

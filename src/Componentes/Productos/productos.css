@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
-
 :root{
-    --main--font: 'PT Serif', serif;;
     --sec--font: 'Quicksand', sans-serif;
     --color--main: #555A54;
     --color--sec: #F7F2EF;
@@ -25,27 +22,21 @@
 
 .promos{
     background-image: url(./img/background.jpg);
-    background-position: center;
-    background-size: cover;
-    opacity: 0.6;
 }
 
 .arrivals{
     background-image: url(./img/arrivals.jpg);
-    background-position: center;
-    background-size: cover;
-    opacity: 0.6;
 }
 
 .summer{
     background-image: url(./img/summer.jpg);
-    background-position: center;
-    background-size: cover;
-    opacity: 0.6;
 }
 
 .winter{
     background-image: url(./img/winter.jpg);
+}
+
+.promos,.arrivals,.summer,.winter{
     background-position: center;
     background-size: cover;
     opacity: 0.6;

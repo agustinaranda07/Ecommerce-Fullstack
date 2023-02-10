@@ -58,16 +58,16 @@ export default function Nav() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white">
-                                <a href="javascript:void(0)">Inicio</a>
+                                <a className="nav-link" href="javascript:void(0)">Inicio</a>
                             </li>
                             <li className="text-white">
-                                <a href="../Productos/productos">Productos</a>
+                                <a className="nav-link" href="javascripot:void(0)">Productos</a>
                             </li>
                             <li className="text-white">
-                                <a href="javascript:void(0)">Carrito</a>
+                                <a className="nav-link" href="javascript:void(0)">Carrito</a>
                             </li>
                             <li className="text-white">
-                                <a href="javascript:void(0)">Contacto</a>
+                                <a className="nav-link" href="javascript:void(0)">Contacto</a>
                             </li>
                         </ul>
 
