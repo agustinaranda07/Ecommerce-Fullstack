@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+:root{
+    --sec--font: 'Quicksand', sans-serif;
+    --color--main: #555A54;
+    --color--sec: #F7F2EF;
+    --color--th: #E1DDD2;
+    --color--ft: #bfbbaf;
+}
+.wrapper-section{
+    background-color: var(--color--sec);
+}
+
+.contact-title{
+    color: var(--color--main);
+}
+
+.sales{
+    background-color: var(--color--ft);
+    color: var(--color--sec);
+}
+
+.support{
+    background-color: var(--color--main);
+    color: var(--color--sec);
+}
+
+.btn-contact-sales{
+    background-color: var(--color--main);
+}
+
+.btn-contact-support{
+    background-color: var(--color--ft);
+}

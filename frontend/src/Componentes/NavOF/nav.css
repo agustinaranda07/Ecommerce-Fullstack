@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+:root{
+    --main--font: 'PT Serif', serif;;
+    --sec--font: 'Quicksand', sans-serif;
+    --color--main: #555A54;
+    --color--sec: #F7F2EF;
+}
+
+#title{
+    font-family: var(--main--font);
+}
+.nav{
+    background-color: var(--color--main);
+    font-family: var(--sec--font);
+    height: 10vh;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul,.container-ul{
+    background-color: var(--color--main);
+}
+
+ul li{
+    padding: 10px 10px;
+    color: var(--color--sec);
+    font-family: var(--sec--font);
+    background-color: var(--color--main);
+}
+
+
+.nav-link{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: var(--color--sec);
+    padding: 8px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--color--sec);
+    transition: width .5s;
+}
+
+.nav-link:hover:before{
+    width: 100%;
+}
+
+
+

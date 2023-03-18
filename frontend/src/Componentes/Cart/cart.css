@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+:root{
+    --main--font: 'PT Serif', serif;;
+    --sec--font: 'Quicksand', sans-serif;
+    --color--main: #555A54;
+    --color--sec: #F7F2EF;
+    --color--th: #E1DDD2;
+    --color--ft: #bfbbaf;
+}
+
+.title-cart,.look-products,.product-title,.subtitle-summary{
+    color: var(--color--main);
+}
+
+.product-img{
+    height: 250px;
+    width: 200px;
+}
